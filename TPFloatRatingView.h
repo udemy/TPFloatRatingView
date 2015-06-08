@@ -69,6 +69,13 @@
  */
 @property (nonatomic) BOOL floatRatings;
 
+- (void)refresh;
+
+- (NSArray *)emptyViews;
+- (NSArray *)fullViews;
+
+- (CGSize)sizeForImage:(UIImage*)image inSize:(CGSize)size;
+
 @end
 
 

@@ -253,4 +253,12 @@
         [self.delegate floatRatingView:self ratingDidChange:self.rating];
 }
 
+- (NSArray *)emptyViews {
+    return [self.emptyImageViews copy];
+}
+
+- (NSArray *)fullViews {
+    return [self.fullImageViews copy];
+}
+
 @end
